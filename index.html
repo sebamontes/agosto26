@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de prueba</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: 60px auto;
-            padding: 20px;
-            background-color: #f2f6ff;
-        }
-    </style>
+    <title>Página de Prueba</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Nuestra primera página publicada</h1>
-    <p>Este sitio fue creado como ejemplo para aprender GitHub Pages.</p>
+    <div class="card">
+        <h1>Página de prueba por el momento</h1>
+        <h2>Calendario del Mes</h2>
+
+        <!-- Contenedor del calendario -->
+        <div id="calendar-container">
+            <div id="month-title"></div>
+            <div class="calendar-grid" id="calendar-grid"></div>
+        </div>
+
+        <!-- Botón para ir a Google -->
+        <a href="https://www.google.com.uy" class="btn" target="_blank" rel="noopener noreferrer">
+            Ir a Google Uruguay
+        </a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
